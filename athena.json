@@ -1,0 +1,15 @@
+{
+    "type": "micro",
+    "wake_word": "Athena",
+    "author": "Alex Berlanga",
+    "model": "athena.tflite",
+    "trained_languages": ["en"],
+    "version": 1,
+    "micro": {
+      "probability_cutoff": 0.9,
+      "sliding_window_size": 5,
+      "feature_step_size": 10,
+      "tensor_arena_size": 22348,
+      "minimum_esphome_version": "2024.7.0"
+    }
+  }
