@@ -4,7 +4,7 @@
     "author": "Alex Berlanga",
     "model": "./athena.tflite",
     "trained_languages": ["en"],
-    "version": 1,
+    "version": 2,
     "micro": {
       "probability_cutoff": 0.9,
       "sliding_window_size": 5,
