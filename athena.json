@@ -2,7 +2,7 @@
     "type": "micro",
     "wake_word": "Athena",
     "author": "Alex Berlanga",
-    "model": "athena.tflite",
+    "model": "./athena.tflite",
     "trained_languages": ["en"],
     "version": 1,
     "micro": {
